@@ -1,0 +1,5 @@
+target
+**/local.settings.json
+hello-world/hello-world
+echo/echo
+with-identity/with-identity

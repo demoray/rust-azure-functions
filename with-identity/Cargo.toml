@@ -1,0 +1,17 @@
+[package]
+name = "with-identity"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+axum = {version="0.6"}
+tokio = {version="1.24", features=["full"]}
+anyhow = "1.0"
+env_logger = "0.10"
+log = "0.4"
+cached = "0.42"
+serde = {version="1.0", features=["derive"]}
+azure_identity = {version="0.9"}
+azure_mgmt_compute = {version="0.9"}
+futures = "0.3"
