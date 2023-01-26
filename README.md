@@ -9,12 +9,12 @@ func azure functionapp publish ${FUNCTION_NAME} --custom | strings
 ```
 
 ## Test Locally
-In shell oen:
+In shell one:
 ```bash
 func start | strings
 ```
 
 In shell two:
 ```bash
-curl https://bmc-test.azurewebsites.net/api/hello
+curl https://${FUNCTION_NAME}.azurewebsites.net/api/hello
 ```
